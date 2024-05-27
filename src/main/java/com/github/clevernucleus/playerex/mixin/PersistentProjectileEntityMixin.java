@@ -56,7 +56,7 @@ abstract class PersistentProjectileEntityMixin extends ProjectileEntity {
 				damage = DataAttributesAPI.ifPresent(livingEntity, ExAPI.RANGED_CRIT_DAMAGE, fallback, value -> (float)(amount * (1.0 + (10.0 * value))));
 			}
 		}
-		System.out.println("DAMAGE: " + damage);
+		// System.out.println("DAMAGE: " + damage);
 		return damage;
 	}
 }
